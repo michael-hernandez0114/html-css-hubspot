@@ -9,3 +9,85 @@
     display: table;
     clear: both;
 }
+
+
+.header-top {
+    background-color: #f5f8fa;
+    /*background-color: green;*/
+}
+
+.header-bottom {
+    background-color: #ffffff;
+}
+
+.container-block {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.test {
+    height: 100px;
+    width: 50%;
+
+}
+
+h3 {
+    height: 100px;
+
+}
+
+/* COMINCIA MAIN */
+.learn-more {
+    background-color: #425b76;
+}
+
+.learn-more-test {
+    height: 100px;
+}
+
+.grow {
+    background-color: #fff2ee;
+}
+
+.grow-test {
+    height: 800px;
+}
+
+.better-together {
+    background-color: #f5f8fa;
+}
+
+.better-together-test {
+    height: 1600px;
+}
+
+.award-winning {
+    background-color: #00acb5;
+}
+
+.award-winning {
+    height: 400px;
+}
+
+.customers {
+    background-color: #ffffff
+}
+
+.customers-test {
+    height: 1000px;
+}
+
+/* FINISCE MAIN */
+
+/* COMINCIA FOOTER */
+
+.footer {
+    background-color: #33475b
+}
+
+.footer-test {
+    height: 800px;
+}
+
+/* FINISHE FOOTER */
