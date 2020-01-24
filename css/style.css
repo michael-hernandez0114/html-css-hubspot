@@ -19,7 +19,6 @@
 /* COMINCIA HEADER TOP */
 .header-top {
     background-color: #f5f8fa;
-    height: 80px;
     padding: 25px;
     line-height: 30px;
     border-bottom: 1px solid #e0e6ed;
@@ -88,10 +87,6 @@
     float: left;
 }
 
-#right-buttons button {
-
-}
-
 .header-right button {
     padding: 8px 20px;
 }
@@ -101,6 +96,7 @@
     color: #ff7d5d;
     border-radius: 3px;
     margin-right: 10px;
+    background-color: #ffffff;
 
 }
 
@@ -129,6 +125,32 @@
 /* COMINCIA HEADER BOTTOM */
 .header-bottom {
     background-color: #ffffff;
+    line-height: 50px;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+#nav-bar ul {
+    float: right;
+}
+
+#nav-bar li {
+    list-style: none;
+    float: left;
+    color: #33475b;
+    font-weight: 600;
+    padding: 0 16px;
+}
+
+.fa-sort-down {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #7c98b6;
 }
 
 /* FNISCE HEADER BOTTOM */
