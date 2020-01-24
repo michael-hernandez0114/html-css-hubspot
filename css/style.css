@@ -2,6 +2,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .clearfix:after {
@@ -10,33 +11,127 @@
     clear: both;
 }
 
-
-.header-top {
-    background-color: #f5f8fa;
-    /*background-color: green;*/
-}
-
-.header-bottom {
-    background-color: #ffffff;
-}
-
 .container-block {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
+/* COMINCIA HEADER TOP */
+.header-top {
+    background-color: #f5f8fa;
+    height: 80px;
+    padding: 25px;
+    line-height: 30px;
+    border-bottom: 1px solid #e0e6ed;
+}
 
-.test {
-    height: 100px;
-    width: 50%;
+.row {
+    color: #33475b;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.row .fa-globe {
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.text-area a {
+    color: #33475b;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.fa-globe, .fa-search, .english, .contact-us :hover {
+    cursor: pointer;
+}
+
+.english {
+    float: left;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+#down-arrow {
+    color: #7c98b6;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.contact-us {
+    float: left;
+    padding: 0 15px;
+}
+
+.header-right {
+    float: right;
+    font-size: 11px;
+}
+
+.header-right i {
+    color: #00a4bd;
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+
+}
+/* REVIEW FOR DELETE */
+#right-buttons {
+    line-height: 30px;
+}
+/* REVIEW FOR DELETE */
+
+#right-buttons li {
+    list-style: none;
+    float: left;
+}
+
+#right-buttons button {
 
 }
 
-h3 {
-    height: 100px;
+.header-right button {
+    padding: 8px 20px;
+}
+
+#log-in {
+    border: 1px solid #ff9a82;
+    color: #ff7d5d;
+    border-radius: 3px;
+    margin-right: 10px;
 
 }
 
+#log-in:hover {
+    background-color: rgba(255, 191, 0, 0.1);
+    cursor: pointer;
+}
+
+#get-hubspot {
+    border:none;
+    border-radius: 3px;
+    background-color: #ff7a59;
+    color: #ffffff;
+}
+
+#get-hubspot:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contact-us {
+    border-left: 2px solid #d0d9e4;
+}
+/* FINISCE HEADER TOP */
+
+/* COMINCIA HEADER BOTTOM */
+.header-bottom {
+    background-color: #ffffff;
+}
+
+/* FNISCE HEADER BOTTOM */
 /* COMINCIA MAIN */
 .learn-more {
     background-color: #425b76;
