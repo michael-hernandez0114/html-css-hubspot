@@ -159,16 +159,83 @@
     background-color: #425b76;
 }
 
-.learn-more-test {
-    height: 100px;
+.learn-more-content {
+    padding: 20px 0;
+
+}
+
+.learn-more-content .message {
+    float: left;
+    color: white;
+    line-height: 30px;
+
+}
+
+.message  {
+    width: 80%;
+    float: left;
+}
+
+.button-block {
+    width: 20%;
+    float: right;
+    padding-top: 10px;
+
+}
+
+.button-block button {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #33475b;
+    font-size: 13px;
+    font-weight: 600;
+
 }
 
 .grow {
     background-color: #fff2ee;
+
 }
 
-.grow-test {
-    height: 800px;
+.bg-grow {
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg');
+    background-repeat: no-repeat;
+
+}
+
+.grow-content {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 40%;
+
+}
+
+.grow-content .text-top  {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #33475b;
+}
+
+.grow-content .text-middle {
+    font-size: 15px;
+    padding-bottom: 25px;
+
+}
+
+#get-button {
+    padding: 20px 45px;
+    background-color: #ff7a59;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.grow-content .text-bottom {
+    width: 50%;
+    padding-top: 25px;
+    font-size: 12px;
 }
 
 .better-together {
