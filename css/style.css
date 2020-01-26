@@ -422,10 +422,65 @@
 
 .award-winning {
     background-color: #00acb5;
+    background-image: linear-gradient(to right,#00a4bd,#00b6ac);
 }
 
-.award-winning {
-    height: 400px;
+.award-winning-content {
+    padding: 130px 0;
+    color: white;
+}
+
+.award-winning-content .title {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0 160px;
+}
+
+.award-winning-content .header-message {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.award-winning-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.award-winning-content table tr:first-of-type {
+    border-bottom: 1px solid #ffffff;
+}
+
+.award-winning-content table td {
+    text-align: center;
+    padding: 30px 50px;
+    border-right: 1px solid #ffffff;
+    width: 25%;
+}
+
+.award-winning-content table td:last-of-type {
+    border-right: none;
+}
+
+.award-winning-content table h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.award-winning-content table tr .with-plus:after {
+    content: '+';
+    font-size: 14px;
+    vertical-align: middle;
+
+}
+
+.award-winning-content table td p {
+    font-size: 14px;
+    text-transform: lowercase;
 }
 
 .customers {
