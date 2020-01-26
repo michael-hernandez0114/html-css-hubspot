@@ -224,7 +224,7 @@
 
 }
 
-#get-button {
+.get-button {
     padding: 20px 45px;
     background-color: #ff7a59;
     color: white;
@@ -487,8 +487,92 @@
     background-color: #ffffff
 }
 
-.customers-test {
-    height: 1000px;
+.customers-content {
+}
+
+.top-row {
+    margin: 0 50px;
+    padding-top: 100px;
+}
+
+.top-row .left-block {
+    float: left;
+    width: 40%;
+}
+
+.top-row .left-block h2 {
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.top-row .left-block p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.top-row .right-block {
+    float: right;
+    width: 60%;
+}
+
+.top-row .right-block .cards-top {
+
+}
+
+.top-row .right-block .card {
+    width: 25%;
+    padding: 20px;
+
+}
+
+.top-row .right-block .card img {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-row {
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+
+.bottom-row .left-block {
+    width: 45%;
+    float: left;
+    text-align: left;
+
+}
+
+.bottom-row .left-block .text-top {
+    font-size: 22px;
+
+}
+
+.bottom-row .left-block .text-middle {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.bottom-row .left-block .text-bottom {
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.bottom-row .right-block {
+    width: 55%;
+    display: inline-block;
+
+}
+
+.bottom-row .right-block img {
+    float: right;
+    height: 400px;
+    width: 350px;
+    text-align: right;
+
 }
 
 /* FINISCE MAIN */
