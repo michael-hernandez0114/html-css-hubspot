@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
     /*color:#33475b;*/
+
 }
 
 .clearfix:after {
@@ -23,8 +24,8 @@
     padding: 25px;
     line-height: 30px;
     border-bottom: 1px solid #e0e6ed;
-
-
+    position: fixed;
+    width: 100%;
 }
 
 .row {
@@ -129,7 +130,9 @@
 .header-bottom {
     background-color: #ffffff;
     line-height: 50px;
+    padding-bottom: 20px;
     padding: 20px 0;
+    padding-top: 104px;
 }
 
 .logo {
@@ -362,7 +365,7 @@
     margin-top: 30px;
 }
 
-.card {
+.cards-block .card {
     width: 31.33333%;
     float: left;
     text-align: center;
@@ -373,7 +376,7 @@
     overflow: hidden;
 }
 
-.card:hover, .crm-block:hover{
+.cards-block .card:hover, .crm-block:hover{
     transform: scale(1.03);
 }
 
@@ -522,14 +525,16 @@
 }
 
 .top-row .right-block .card {
-    width: 25%;
+    width: 24%;
     padding: 20px;
+    display: inline-block;
 
 }
 
 .top-row .right-block .card img {
     height: 100%;
     width: 100%;
+
 }
 
 .bottom-row {
@@ -709,6 +714,6 @@
 
 .comments:hover {
     cursor: pointer;
-    
+
 }
 /* FOOTER FINISCE  */
