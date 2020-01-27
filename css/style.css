@@ -152,6 +152,7 @@
     font-size: 20px;
     padding-left: 10px;
     color: #7c98b6;
+    cursor: pointer;
 }
 
 /* FNISCE HEADER BOTTOM */
@@ -541,6 +542,7 @@
     width: 45%;
     float: left;
     text-align: left;
+    padding-top: 40px;
 
 }
 
@@ -575,16 +577,110 @@
 
 }
 
+.navigation {
+    background-color: #33475b;
+    padding-top: 100px;
+}
+
+.navigation-content .nav-block {
+    width: 24%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.navigation-content .nav-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navigation-content .nav-block ul li:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.navigation-content .nav-block ul li:nth-child(1n+2) {
+    padding-bottom: 18px;
+}
+
+.navigation-content .nav-block ul li a {
+    color: #cbd6e2;
+    font-size: 14px;
+}
+
+.navigation-content .nav-block ul a {
+    text-decoration: none;
+}
+
+.navigation-content #contact-support {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.nav-block ul li i {
+    font-size: 18px;
+    color: #cbd6e2;
+    width: 15%;
+}
+
+.language-bar {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.language-bar ul {
+    list-style: none;
+}
+
+.language-bar ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.language-bar ul li a {
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
 /* FINISCE MAIN */
 
 /* COMINCIA FOOTER */
-
 .footer {
-    background-color: #33475b
+    background-color: #33475b;
+
 }
 
-.footer-test {
-    height: 800px;
+.footer-content {
+    border-top: 1px solid #6a849f;
+    padding: 30px 0;
 }
+
+.footer-content .left-block {
+    color: #cbd6e2;
+    float: left;
+}
+
+.footer-content .left-block p{
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.footer-content .right-block a {
+    text-decoration: none;
+    color: #cbd6e2;
+    float: right;
+    display: inline-block;
+
+}
+
+.footer-content .right-block .give-space {
+    padding-right: 40px;
+}
+
 
 /* FINISHE FOOTER */
